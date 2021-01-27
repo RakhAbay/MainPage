@@ -1,0 +1,71 @@
+body{
+  background-color: #a6f6f1;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+
+.team{
+  margin-top: 50px;
+}
+
+.up{
+  margin-top: 150px;
+  text-align: center;
+  display: flex;
+  margin-left: 380px;
+}
+
+.Arman{
+  transition: all 500ms ease;
+  margin-right: 100px;
+}
+.Rakhman{
+  transition: all 500ms ease;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.Nursat{
+  transition: all 500ms ease;
+  margin-left: 100px;
+}
+
+.line{
+  border-style: dashed;
+  width: 33%;
+}
+
+.text{
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.anim {
+  transition: all 500ms ease;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.Arman:hover {
+  animation: bounce 1s;
+}
+.Rakhman:hover {
+  animation: bounce 1s;
+}
+.Nursat:hover {
+  animation: bounce 1s;
+}
